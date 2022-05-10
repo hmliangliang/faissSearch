@@ -44,7 +44,7 @@ def searchVectors(input_data,data,args):
     return result
 
 def run(args):
-    #读取tdw分布式数据库中的表
+    #读取分布式数据库中的表
     print('Begin Load Dataset.')
     spark = SparkSession.builder.appName("read_table").getOrCreate()
     player_path = args.data_input.split(",")[0]
