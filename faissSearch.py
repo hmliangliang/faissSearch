@@ -80,7 +80,7 @@ def searchVectors(input_data,data,args):
     return result
 
 def run(args):
-    #读取tdw分布式数据库中的表
+    #读取分布式数据库中的表
 
     '''读取玩家的数据'''
     path = args.data_input.split(',')[0]
